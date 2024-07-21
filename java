@@ -9,18 +9,17 @@ public class javabasics {
     }
 }
 
+// program 2 output using float
 
-
-//program 2 print random no.
-mport java.lang.Math;   
-public class RandomNumberExample1  
-{   
-public static void main(String args[])   
-{   
-// Generating random numbers  
-System.out.println("1st Random Number: " + Math.random());   
-System.out.println("2nd Random Number: " + Math.random());  
-System.out.println("3rd Random Number: " + Math.random());   
-System.out.println("4th Random Number: " + Math.random());   
-}   
-}  
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float pencil=sc.nextFloat();
+        float pen=sc.nextFloat();
+        float eraser=sc.nextFloat();
+        float bill=(pencil + pen + eraser);
+        System.out.println(bill);
+        
+    }
+}
+ 
