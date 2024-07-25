@@ -1,0 +1,67 @@
+//program 1
+public class solution {
+    public static void main(String[] args) {
+        // Variables
+        int a = 10;
+        int b = 5;
+
+        
+
+        // Bitwise Operators
+        System.out.println("\nBitwise Operators:");
+        System.out.println("a & b: " + (a & b)); // Bitwise AND
+        System.out.println("a | b: " + (a | b)); // Bitwise OR
+        System.out.println("a ^ b: " + (a ^ b)); // Bitwise XOR
+        System.out.println("~a: " + (~a)); // Bitwise Complement
+        System.out.println("a << 1: " + (a << 1)); // Left shift
+        System.out.println("a >> 1: " + (a >> 1)); // Right shift
+
+        
+    }
+}
+
+//program 2
+public class solution {
+    public static void main(String[] args) {
+        // Variables
+        int a = 10;
+        int b = 5;
+
+        // Assignment Operators
+        System.out.println("\nAssignment Operators:");
+        int c = 15;
+        c += 5; // c = c + 5
+        System.out.println("c += 5: " + c);
+        c -= 5; // c = c - 5
+        System.out.println("c -= 5: " + c);
+        c *= 2; // c = c * 2
+        System.out.println("c *= 2: " + c);
+        c /= 3; // c = c / 3
+        System.out.println("c /= 3: " + c);
+        c %= 4; // c = c % 4
+        System.out.println("c %= 4: " + c);
+
+    }
+}
+
+// program 3
+public class solution {
+    public static void main(String[] args) {
+        // Variables
+        int a = 10;
+        int b = 5;
+
+        // Unary Operators
+        System.out.println("\nUnary Operators:");
+        int d = +a;
+        System.out.println("+a: " + d);
+        d = -a;
+        System.out.println("-a: " + d);
+        System.out.println("++a: " + (++a)); // Pre-increment
+        System.out.println("a++: " + (a++)); // Post-increment
+        System.out.println("a after a++: " + a);
+        System.out.println("--b: " + (--b)); // Pre-decrement
+        System.out.println("b--: " + (b--)); // Post-decrement
+        System.out.println("b after b--: " + b);
+    }
+}
